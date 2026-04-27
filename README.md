@@ -19,3 +19,36 @@ Aktivitas ini memiliki tiga bagian:
 **Informasi Ringkasan**
 
 Setelah melihat dataset, dua variabel yang paling mungkin membantu membangun model prediksi untuk tarif perjalanan taksi adalah total_amount dan trip_distance karena variabel-variabel tersebut menunjukkan gambaran perjalanan taksi.
+
+**Ringkasan Data Awal Proyek TLC Kota New York**
+
+Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC untuk memberi informasi kepada tim tentang deskripsi variabel data utama, dan memastikan informasi yang diberikan sesuai untuk menghasilkan wawasan yang jelas dan bermakna.
+
+
+* Dataset dieksplorasi untuk menemukan nilai-nilai yang tidak biasa.
+* Mempertimbangkan variabel mana yang paling berguna untuk membangun model prediktif (dalam hal ini: total_amount dan trip_distance).
+* Mempertimbangkan potensi interaksi antara dua variabel yang dipilih.
+* Menganalisis komponen mana dari data yang diberikan yang akan memberikan wawasan yang relevan.
+* Membangun landasan untuk analisis data eksplorasi, visualisasi, dan model di masa mendatang.
+
+**Next Step**
+* Lakukan analisis data eksplorasi secara menyeluruh.
+* Lakukan langkah-langkah pembersihan data dan analisis data untuk memahami variabel yang tidak biasa (misalnya, outlier).
+* Gunakan statistik deskriptif untuk mempelajari lebih lanjut tentang data tersebut.
+* Buat dan jalankan model regresi.
+
+**Analisis Data Eksploratif dari Data TLC Kota New York**
+
+Komisi Taksi & Limousine NYC telah menjalin kontrak dengan Automatidata untuk membangun model regresi yang memprediksi tarif perjalanan taksi. Pada bagian proyek ini, data perlu dianalisis, dieksplorasi, dibersihkan, dan distrukturkan sebelum pemodelan apa pun dilakukan.
+
+**Next Step**
+* Identifikasi setiap titik data yang tidak biasa yang dapat menimbulkan masalah untuk analisis selanjutnya dalam memprediksi tarif perjalanan.
+  Sebagai contoh, lokasi yang memiliki durasi lebih lama.
+* Tentukan variabel-variabel yang memiliki dampak terbesar pada tarif perjalanan.
+* Saring untuk mempertimbangkan variabel yang paling relevan untuk menjalankan regresi, analisis statistik, dan penyetelan parameter.
+
+
+
+
+
+
