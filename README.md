@@ -68,9 +68,11 @@ Tim Automatidata menjalankan uji A/B untuk menganalisis hubungan antara pembayar
 * Melakukan uji t dua sampel untuk menentukan apakah terdapat perbedaan yang signifikan secara statistik dalam rata-rata total tarif antara pelanggan yang menggunakan kartu kredit dan pelanggan yang menggunakan uang tunai.
 
 **Next Step**
+
 Tim data Automatidata merekomendasikan agar TLC Kota New York mendorong pelanggan untuk membayar dengan kartu kredit, dan membuat strategi untuk mempromosikan pembayaran kartu kredit. Misalnya, TLC Kota New York dapat memasang tanda yang bertuliskan “Pembayaran kartu kredit lebih disukai” di dalam taksi mereka, dan menerapkan protokol yang mengharuskan pengemudi taksi untuk secara verbal memberi tahu pelanggan bahwa pembayaran kartu kredit lebih disukai
 
 **Asumsi Regresi Setelah Pemodelan**
+
 **Problem**
 Komisi Taksi & Limousine Kota New York mengontrak Automatidata untuk memprediksi tarif taksi. Pada bagian proyek ini, tim data Automatidata membuat hasil akhir sesuai permintaan awal dari klien mereka: sebuah model regresi.
 
