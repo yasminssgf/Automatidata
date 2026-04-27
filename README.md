@@ -1,8 +1,8 @@
-# Automatidata
+#  Proyek TLC Kota New York Automatidata
 
-**Ringkasan Data Awal Proyek TLC Kota New York**
+**Dasar Ilmu Data**
 
-Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC untuk memberi informasi tentang deskripsi variabel data utama, dan memastikan informasi yang diberikan sesuai untuk menghasilkan wawasan yang jelas dan bermakna.
+Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC untuk memberi informasi tentang deskripsi variabel data utama, dan memastikan informasi yang diberikan sesuai untuk menghasilkan wawasan yang jelas dan bermakna. Hal-hal yang dilakukan dalam bagian ini:
 
 * Dataset dieksplorasi untuk menemukan nilai-nilai yang tidak biasa.
 * Mempertimbangkan variabel mana yang paling berguna untuk membangun model prediktif (dalam hal ini: total_amount dan trip_distance).
@@ -18,7 +18,7 @@ Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC 
 
 **Analisis Data Eksploratif dari Data TLC Kota New York**
 
-Komisi Taksi & Limousine NYC telah menjalin kontrak dengan Automatidata untuk membangun model regresi yang memprediksi tarif perjalanan taksi. Pada bagian proyek ini, data perlu dianalisis, dieksplorasi, dibersihkan, dan distrukturkan sebelum pemodelan apa pun dilakukan.
+Pada bagian proyek ini, data perlu dianalisis, dieksplorasi, dibersihkan, dan distrukturkan sebelum pemodelan apa pun dilakukan.
 
 **Next Step**
 * Identifikasi setiap titik data yang tidak biasa yang dapat menimbulkan masalah untuk analisis selanjutnya dalam memprediksi tarif perjalanan.
@@ -27,7 +27,7 @@ Komisi Taksi & Limousine NYC telah menjalin kontrak dengan Automatidata untuk me
 * Saring untuk mempertimbangkan variabel yang paling relevan untuk menjalankan regresi, analisis statistik, dan penyetelan parameter.
 
 
-**Tinjauan Statistik dan Pengujian A/B untuk Proyek TLC Kota New York**
+**Tinjauan Statistik dan Pengujian A/B untuk Proyek TLC Kota New York (EDA)**
 
 **Tujuan** proyek ini adalah untuk memprediksi tarif taksi sebelum setiap perjalanan. Pada tahap ini, fokus proyek ini adalah untuk menemukan cara menghasilkan lebih banyak pendapatan bagi pengemudi taksi di New York City. Bagian proyek ini meneliti hubungan antara jumlah total tarif dan jenis pembayaran.
 
@@ -37,7 +37,7 @@ Komisi Taksi & Limousine NYC telah menjalin kontrak dengan Automatidata untuk me
 **Solution**
 Tim Automatidata menjalankan uji A/B untuk menganalisis hubungan antara pembayaran kartu kredit dan total biaya perjalanan. Wawasan bisnis utamanya adalah bahwa mendorong pelanggan untuk membayar dengan kartu kredit kemungkinan akan menghasilkan lebih banyak pendapatan bagi pengemudi taksi.
 
-**Langkah-langkah yang dilakukan dalam uji A/B**
+**Langkah-langkah yang dilakukan dalam uji A/B (Analisis Statistik)**
 * Data sampel yang dikumpulkan dari sebuah eksperimen di mana pelanggan dipilih secara acak dan dibagi menjadi dua kelompok:
 
   a. Pelanggan yang diharuskan membayar dengan kartu kredit.
@@ -50,7 +50,7 @@ Tim Automatidata menjalankan uji A/B untuk menganalisis hubungan antara pembayar
 
 Tim data Automatidata merekomendasikan agar TLC Kota New York mendorong pelanggan untuk membayar dengan kartu kredit, dan membuat strategi untuk mempromosikan pembayaran kartu kredit. Misalnya, TLC Kota New York dapat memasang tanda yang bertuliskan “Pembayaran kartu kredit lebih disukai” di dalam taksi mereka, dan menerapkan protokol yang mengharuskan pengemudi taksi untuk secara verbal memberi tahu pelanggan bahwa pembayaran kartu kredit lebih disukai
 
-**Asumsi Regresi Setelah Pemodelan**
+**Analisis Regresi**
 
 **Problem**
 Komisi Taksi & Limousine Kota New York mengontrak Automatidata untuk memprediksi tarif taksi. Pada bagian proyek ini, tim data Automatidata membuat hasil akhir sesuai permintaan awal dari klien mereka: sebuah model regresi.
