@@ -11,14 +11,16 @@ Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC 
 * Membangun landasan untuk analisis data eksplorasi, visualisasi, dan model di masa mendatang.
 
 **Next Step**
-* Lakukan analisis data eksplorasi secara menyeluruh.
-* Lakukan langkah-langkah pembersihan data dan analisis data untuk memahami variabel yang tidak biasa (misalnya, outlier).
-* Gunakan statistik deskriptif untuk mempelajari lebih lanjut tentang data tersebut.
 * Buat dan jalankan model regresi.
 
 **Analisis Data Eksploratif dari Data TLC Kota New York**
 
-Pada bagian proyek ini, data perlu dianalisis, dieksplorasi, dibersihkan, dan distrukturkan sebelum pemodelan apa pun dilakukan.
+Pada bagian ini: 
+
+* Dilakukan analisis data eksplorasi secara menyeluruh. 
+* Dilakukan langkah-langkah pembersihan data dan analisis data untuk memahami variabel yang tidak biasa (misalnya, outlier).
+* Digunakan statistik deskriptif untuk mempelajari lebih lanjut tentang data tersebut.
+* Distrukturkan sebelum pemodelan dilakukan.
 
 **Next Step**
 * Identifikasi setiap titik data yang tidak biasa yang dapat menimbulkan masalah untuk analisis selanjutnya dalam memprediksi tarif perjalanan.
