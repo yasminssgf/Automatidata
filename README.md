@@ -1,5 +1,7 @@
 #  Proyek TLC Kota New York Automatidata
 
+Proyek ini merupakan proyek yang merupakan tugas dari kursus advanced data analytics yang merupakan kursus sertifikasi data analysis yang diadakan oleh coursera.
+
 **Dasar Ilmu Data**
 
 Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC untuk memberi informasi tentang deskripsi variabel data utama, dan memastikan informasi yang diberikan sesuai untuk menghasilkan wawasan yang jelas dan bermakna. Hal-hal yang dilakukan dalam bagian ini:
