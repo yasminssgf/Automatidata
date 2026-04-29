@@ -12,9 +12,6 @@ Proyek ini melakukan inspeksi awal terhadap data Komisi Taksi dan Limousine NYC 
 * Menganalisis komponen mana dari data yang diberikan yang akan memberikan wawasan yang relevan.
 * Membangun landasan untuk analisis data eksplorasi, visualisasi, dan model di masa mendatang.
 
-**Next Step**
-* Buat dan jalankan model regresi.
-
 **Analisis Data Eksploratif dari Data TLC Kota New York**
 
 Pada bagian ini: 
@@ -24,17 +21,15 @@ Pada bagian ini:
 * Digunakan statistik deskriptif untuk mempelajari lebih lanjut tentang data tersebut.
 * Distrukturkan sebelum pemodelan dilakukan.
 
-**Next Step**
+**Tinjauan Statistik dan Pengujian A/B untuk Proyek TLC Kota New York (EDA)**
+
+**Langkah-langkah EDA**
 * Identifikasi setiap titik data yang tidak biasa yang dapat menimbulkan masalah untuk analisis selanjutnya dalam memprediksi tarif perjalanan.
   Sebagai contoh, lokasi yang memiliki durasi lebih lama.
 * Tentukan variabel-variabel yang memiliki dampak terbesar pada tarif perjalanan.
 * Saring untuk mempertimbangkan variabel yang paling relevan untuk menjalankan regresi, analisis statistik, dan penyetelan parameter.
 
-
-**Tinjauan Statistik dan Pengujian A/B untuk Proyek TLC Kota New York (EDA)**
-
 **Tujuan** proyek ini adalah untuk memprediksi tarif taksi sebelum setiap perjalanan. Pada tahap ini, fokus proyek ini adalah untuk menemukan cara menghasilkan lebih banyak pendapatan bagi pengemudi taksi di New York City. Bagian proyek ini meneliti hubungan antara jumlah total tarif dan jenis pembayaran.
-
 
 **Problem** Pengemudi taksi menerima jumlah tip yang bervariasi. Sambil meneliti hubungan antara jumlah total ongkos dan jenis pembayaran, proyek ini bertujuan untuk mengetahui apakah pelanggan yang membayar dengan kartu kredit cenderung membayar jumlah total ongkos yang lebih besar daripada pelanggan yang membayar tunai.
 
@@ -46,13 +41,9 @@ Tim Automatidata menjalankan uji A/B untuk menganalisis hubungan antara pembayar
 
   a. Pelanggan yang diharuskan membayar dengan kartu kredit.
   
-  b. Pelanggan yang diharuskan membayar dengan uang tunai. Hal ini memungkinkan kami untuk menarik kesimpulan kausal tentang bagaimana metode pembayaran memengaruhi jumlah tarif.
+  b. Pelanggan yang diharuskan membayar dengan uang tunai. Hal ini memungkinkan untuk menarik kesimpulan kausal tentang bagaimana metode pembayaran memengaruhi jumlah tarif.
 * Menghitung statistik deskriptif untuk lebih memahami rata-rata total biaya perjalanan untuk setiap metode pembayaran yang tersedia bagi pelanggan.
 * Melakukan uji t dua sampel untuk menentukan apakah terdapat perbedaan yang signifikan secara statistik dalam rata-rata total tarif antara pelanggan yang menggunakan kartu kredit dan pelanggan yang menggunakan uang tunai.
-
-**Next Step**
-
-Tim data Automatidata merekomendasikan agar TLC Kota New York mendorong pelanggan untuk membayar dengan kartu kredit, dan membuat strategi untuk mempromosikan pembayaran kartu kredit. Misalnya, TLC Kota New York dapat memasang tanda yang bertuliskan “Pembayaran kartu kredit lebih disukai” di dalam taksi mereka, dan menerapkan protokol yang mengharuskan pengemudi taksi untuk secara verbal memberi tahu pelanggan bahwa pembayaran kartu kredit lebih disukai
 
 **Analisis Regresi**
 
@@ -61,6 +52,10 @@ Komisi Taksi & Limousine Kota New York mengontrak Automatidata untuk memprediksi
 
 **Response**
 Tim data Automatidata memilih untuk membuat model regresi linier berganda (MLR) berdasarkan jenis dan distribusi data yang diberikan. Model MLR menunjukkan keberhasilan dalam memperkirakan tarif taksi sebelum perjalanan dimulai.
+
+**Rekomendasi**
+
+Tim data Automatidata merekomendasikan agar TLC Kota New York mendorong pelanggan untuk membayar dengan kartu kredit, dan membuat strategi untuk mempromosikan pembayaran kartu kredit. Misalnya, TLC Kota New York dapat memasang tanda yang bertuliskan “Pembayaran kartu kredit lebih disukai” di dalam taksi mereka, dan menerapkan protokol yang mengharuskan pengemudi taksi untuk secara verbal memberi tahu pelanggan bahwa pembayaran kartu kredit lebih disukai
 
 Performa model tinggi baik pada set pelatihan maupun set pengujian, menunjukkan bahwa model tidak terlalu bias dan tidak mengalami overfitting. Model berkinerja lebih baik pada data pengujian.
 
