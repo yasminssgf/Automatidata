@@ -1,6 +1,6 @@
 #  Proyek TLC Kota New York Automatidata
 
-Proyek ini merupakan proyek yang merupakan tugas dari kursus advanced data analytics yang merupakan kursus sertifikasi data analysis yang diadakan oleh coursera.
+Proyek ini merupakan proyek yang merupakan tugas dari kursus Advanced Data Analytics yang merupakan kursus sertifikasi data analisis yang diadakan oleh Coursera.
 
 **Dasar Ilmu Data**
 
@@ -34,7 +34,7 @@ Pada bagian ini:
 **Problem** Pengemudi taksi menerima jumlah tip yang bervariasi. Sambil meneliti hubungan antara jumlah total ongkos dan jenis pembayaran, proyek ini bertujuan untuk mengetahui apakah pelanggan yang membayar dengan kartu kredit cenderung membayar jumlah total ongkos yang lebih besar daripada pelanggan yang membayar tunai.
 
 **Solution**
-Tim Automatidata menjalankan uji A/B untuk menganalisis hubungan antara pembayaran kartu kredit dan total biaya perjalanan. Wawasan bisnis utamanya adalah bahwa mendorong pelanggan untuk membayar dengan kartu kredit kemungkinan akan menghasilkan lebih banyak pendapatan bagi pengemudi taksi.
+Dilakukan uji A/B untuk menganalisis hubungan antara pembayaran kartu kredit dan total biaya perjalanan. Wawasan bisnis utamanya adalah bahwa mendorong pelanggan untuk membayar dengan kartu kredit kemungkinan akan menghasilkan lebih banyak pendapatan bagi pengemudi taksi.
 
 **Langkah-langkah yang dilakukan dalam uji A/B (Analisis Statistik)**
 * Data sampel yang dikumpulkan dari sebuah eksperimen di mana pelanggan dipilih secara acak dan dibagi menjadi dua kelompok:
@@ -48,14 +48,11 @@ Tim Automatidata menjalankan uji A/B untuk menganalisis hubungan antara pembayar
 **Analisis Regresi**
 
 **Problem**
-Komisi Taksi & Limousine Kota New York mengontrak Automatidata untuk memprediksi tarif taksi. Pada bagian proyek ini, tim data Automatidata membuat hasil akhir sesuai permintaan awal dari klien mereka: sebuah model regresi.
-
-**Response**
-Tim data Automatidata memilih untuk membuat model regresi linier berganda (MLR) berdasarkan jenis dan distribusi data yang diberikan. Model MLR menunjukkan keberhasilan dalam memperkirakan tarif taksi sebelum perjalanan dimulai.
+Pada bagian proyek ini, akan dibuat hasil akhir, yaitu sebuah model regresi. Dipilih untuk membuat model regresi linier berganda (MLR) berdasarkan jenis dan distribusi data yang diberikan. Model MLR menunjukkan keberhasilan dalam memperkirakan tarif taksi sebelum perjalanan dimulai.
 
 **Rekomendasi**
 
-Tim data Automatidata merekomendasikan agar TLC Kota New York mendorong pelanggan untuk membayar dengan kartu kredit, dan membuat strategi untuk mempromosikan pembayaran kartu kredit. Misalnya, TLC Kota New York dapat memasang tanda yang bertuliskan “Pembayaran kartu kredit lebih disukai” di dalam taksi mereka, dan menerapkan protokol yang mengharuskan pengemudi taksi untuk secara verbal memberi tahu pelanggan bahwa pembayaran kartu kredit lebih disukai
+Direkomendasikan agar TLC Kota New York mendorong pelanggan untuk membayar dengan kartu kredit, dan membuat strategi untuk mempromosikan pembayaran kartu kredit. Misalnya, TLC Kota New York dapat memasang tanda yang bertuliskan “Pembayaran kartu kredit lebih disukai” di dalam taksi mereka, dan menerapkan protokol yang mengharuskan pengemudi taksi untuk secara verbal memberi tahu pelanggan bahwa pembayaran kartu kredit lebih disukai
 
 Performa model tinggi baik pada set pelatihan maupun set pengujian, menunjukkan bahwa model tidak terlalu bias dan tidak mengalami overfitting. Model berkinerja lebih baik pada data pengujian.
 
